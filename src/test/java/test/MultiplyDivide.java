@@ -17,7 +17,7 @@ public class MultiplyDivide {
     @Test
     public void Pow(){
         double res = Math.pow(2,3);
-        Assert.assertEquals(res,8);
+        Assert.assertEquals(res,9);
     }
     public int multiply(int i, int j){
         return i*j;
@@ -28,7 +28,6 @@ public class MultiplyDivide {
     public int pow(int i, int j){
         return (int) Math.pow(i,j);
     }
-
 
 }
 
